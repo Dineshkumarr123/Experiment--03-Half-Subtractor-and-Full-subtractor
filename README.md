@@ -30,8 +30,10 @@ Diff = A ⊕ B ⊕ Bin B = A'Bin + A'B + BBin
 
 
 Write the detailed procedure here 
-
-
+Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
+Developed by: R.Dineshkumar.
+RegisterNumber:212222050010  
+~~~
 ## Program:
 module subtractor(a,b,c,diff,borrow,diffl,borrowl);
 inputa,b,c,;
@@ -40,10 +42,10 @@ assign borrow=(~a&b);
 assign diffl=(a^b^c);
 assign borrowl=(~a&(b^c)|(b&c));
 endmodule
+~~~
+
 /*
-Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
-Developed by: R.Dineshkumar.
-RegisterNumber:212222050010  
+
 */
 
 ## Output:
